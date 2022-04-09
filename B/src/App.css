@@ -1,0 +1,105 @@
+body {
+  background-color: var(--primaryColor);
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+:root {
+  --primaryColor: #21253F
+}
+
+.App {
+  max-width: 768px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.title {
+  color: white;
+  text-align: center;
+}
+
+.title p {
+  display: inline-block;
+  background: linear-gradient(to right, #f5af19, #f12711);
+  padding: 0.2rem 1rem;
+  border-radius: 8px;
+  margin: 0 .5rem;
+}
+
+.content {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.content__form-inputlink {
+  display: flex;
+  align-items: center;
+}
+
+.content__form-inputlink input {
+  height: 30px;
+  border-radius: 5px;
+  margin: 0 5px;
+  padding: 0 5px;
+}
+
+.content__form-inputlink button {
+  background-color: var(--primaryColor);
+  border: none;
+  height: 3;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.content__form-inputlink svg {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.content__form-linktype button {
+  margin-top: 1rem;
+  border: none;
+  padding: 5px 7px;
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content__form-linktype .selected {
+  background-color: var(--primaryColor);
+  color: white;
+}
+
+.content__desc {
+  margin-top: 2rem;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 1rem;
+  color: #fff;
+}
+
+.footer span {
+  font-weight: bold;
+}
+
+.code-generated {
+  margin-top: 2rem;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.code-generated h1 {
+  color: green;
+  font-weight: bolder;
+  text-decoration: underline;
+}
